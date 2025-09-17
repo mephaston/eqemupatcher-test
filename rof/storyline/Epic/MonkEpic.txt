@@ -28,7 +28,7 @@ Turn all three in to <c "#ffd700">Brother Balatin</c> in <c "#dc7633">Dreadlands
 <c "#35db24">The Lost Tome</c><br>
 <c "#dc7633">Skyfire</c>: repeat either the <c "#ffd700">Skyfire Named Cycle</c> (<c "#dc7633">Black Scar</c>) or the <c "#ffd700">Eldrig Cycle</c> until <c "#dc7633">Immortals</c> drops.<br>
 <c "#dc7633">Erudin Library</c>: give <c "#dc7633">Immortals</c> to <c "#ffd700">Tomekeeper Danl</c> → <c "#dc7633">Danl's Reference</c>.<br>
-Give <c "#dc7633">Danl's Reference</c> + <c "#dc7633">Robe of the Whistling Fists</c> to <c "#ffd700">Lheao</c> in <c "#dc7633">Erudin Palace</c> → <c "#dc7633">Celestial Fists</c> (book only, not epic).<br>
+Give <c "#dc7633">Danl's Reference</c> + <c "#dc7633">Robe of the Whistling Fists</c> to <c "#ffd700">Lheao</c> in <c "#dc7633">Timorous Deep</c> → <c "#dc7633">Celestial Fists</c> (book only, not epic).<br>
 <br>
 
 <c "#35db24">Kaiaren's Crazy!</c><br>
@@ -38,3 +38,4 @@ Hand <c "#dc7633">Book of Celestial Fists</c> + <c "#dc7633">Demon Fangs</c> to 
 <br><br><br>
 
 <br><br><a href="file:///storyline/storyEpicsGuide.txt>Go Back</a><br><br><br>
+

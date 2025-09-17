@@ -7,21 +7,21 @@ One each of these will be needed later to craft the Plane of Time key.<br><br>
 
 
 
-<c "#ff0000">Coirnav</c> is a 4 wave fight followed by <c "#ff0000">Coirnav</c> himself.<br>
+<c "#ff0000">Coirnav</c> is a 4 wave fight followed by <c "#ff0000">Coirnav</c> himself. Your objective is to <c "#dc7633">focus down adds while ignoring named</c>.<br> Once three waves of adds are complete, the named will respawn in a significantly weaker form.
 This event has no time limit in a non-respawning instance.<br><br>
 
 <c "#35db24"> Wave One</c><br><br>
-Engage <c "#ff0000">Guardian of Coirnav</c>, and once he dies <c "#ff0000">Pwelon of Vapor</c> will spawn along with 20-25 <c "#ff0000">vaporfiend</c> adds.<br>Kill all of this to start wave two.<br><br>
+Engage <c "#ff0000">Guardian of Coirnav</c>, and once he dies <c "#ff0000">Pwelon of Vapor</c> will spawn along with 20-25 <c "#ff0000">vaporfiend</c> adds.<br>Kill Pwelon's small adds. Ignore Pwelon <c "#dc7633">(Optional)</c>.<br><br>
 
 <c "#35db24"> Wave Two</c><br><br>
-A few minutes after wave one is complete, <c "#ff0000">Nrinda of Ice</c> will spawn along with 20-25 <c "#ff0000">icefiend</c> adds.<br>Kill all of this to start wave three.<br><br>
+A few minutes after wave one is complete, <c "#ff0000">Nrinda of Ice</c> will spawn along with 20-25 <c "#ff0000">icefiend</c> adds.<br>Kill Nrinda's small adds. Ignore Pwelon and Nrinda <c "#dc7633">(Optional)</c>.<br><br>
 
 
 <c "#35db24"> Wave Three</c><br><br>
-A few minutes after wave two is complete, <c "#ff0000">Vamuil of Water</c> will spawn along with 20-25 <c "#ff0000">waterfiend</c> adds.<br>Kill all of this to start wave four.<br><br>
+A few minutes after wave two is complete, <c "#ff0000">Vamuil of Water</c> will spawn along with 20-25 <c "#ff0000">waterfiend</c> adds.<br>Kill Vamuil's small adds. Ignore Pwelon, Nrinda, and Vanuil <c "#dc7633">(Optional)</c>.<br><br>
 
 <c "#35db24"> Wave Four - Coirnav Protectors</c><br><br>
-Once wave three is complete, the previous three bosses <c "#ff0000">Nrinda of Ice, Pwelon of Vapor, and Vamuil of Water</c> will respawn in front of Coirnav.<br> Dispatch these and prepare to fight Coirnav.<br><br>
+Once wave three is complete, the previous three bosses <c "#ff0000">Nrinda of Ice, Pwelon of Vapor, and Vamuil of Water</c> will respawn in front of Coirnav in a much weaker form.<br> Dispatch these and prepare to fight Coirnav.<br><br>
 
 <c "#35db24"> Coirnav, the Avatar of Water </c><br><br>
 Once everything else is dead, <c "#ff0000">Coirnav, the Avatar of Water</c> will spawn along with several adds.<br>

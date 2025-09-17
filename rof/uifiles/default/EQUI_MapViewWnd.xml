@@ -1108,10 +1108,10 @@
 		<ScreenID>MVW_SearchHideButton</ScreenID>
 		<RelativePosition>true</RelativePosition>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>32</TopAnchorOffset>
-		<BottomAnchorOffset>52</BottomAnchorOffset>
-		<LeftAnchorOffset>110</LeftAnchorOffset>
-		<RightAnchorOffset>155</RightAnchorOffset>
+		<TopAnchorOffset>66</TopAnchorOffset>
+		<BottomAnchorOffset>86</BottomAnchorOffset>
+		<LeftAnchorOffset>155</LeftAnchorOffset>
+		<RightAnchorOffset>200</RightAnchorOffset>
 		<Text>Hide</Text>
 		<TextColor>
 			<R>255</R>
@@ -1150,8 +1150,8 @@
 		<ScreenID>MVW_SearchLayout</ScreenID>
 		<DrawTemplate>WDT_Inner</DrawTemplate>
 		<AutoStretch>true</AutoStretch>
-		<TopAnchorOffset>30</TopAnchorOffset>
-		<BottomAnchorOffset>10</BottomAnchorOffset>
+		<TopAnchorOffset>64</TopAnchorOffset>
+		<BottomAnchorOffset>34</BottomAnchorOffset>
 		<LeftAnchorOffset>7</LeftAnchorOffset>
 		<RightAnchorOffset>70</RightAnchorOffset>
 		<BottomAnchorToTop>false</BottomAnchorToTop>
