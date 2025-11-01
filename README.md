@@ -4,6 +4,7 @@ EQEmu File Comparison and Patcher
 
 ![alt tag](http://i.imgur.com/FSVgkzh.png)
 ---
+<<<<<<< HEAD
 
 There are two ways to set up eqemupatcher:
 The easier but limited is the [Quick Guide](#quick-guide) steps.
@@ -17,6 +18,9 @@ click above to watch a step by step video
 
 # Advanced Build
 
+=======
+It is REQUIRED as a server administrator to compile eqemupatcher.exe yourself to configure it properly.
+>>>>>>> upstream/master
 * eqemupatcher.exe is the client side patcher. Read Client Setup for more information on how to use it.
 * filelistbuilder.exe is the server side patch prepper. Read Server Setup for more information on how to use it.
 
@@ -30,6 +34,7 @@ After finishing the Server Setup process, simply distribute eqemupatcher.exe to 
 There are two parts to getting eqemupatcher working. First is getting filelistbuilder configured, second is configuring and compiling the eqemupatcher client.
 
 * Fork this repository, so you can modify and version your own changes. If you are unfamiliar with forking, I suggest checking out https://help.github.com/articles/fork-a-repo/ to learn more. When I refer to the EQemu Patcher\ directory, I am referring to your forked copy of the source code here.
+<<<<<<< HEAD
 * Enable CICD actions
 
 #### Filelistbuilder setup - Building the patch data.
@@ -38,6 +43,12 @@ Theere are two ways to generate the patch data. If you don't have large patches,
 
 * *Optional:* If you have golang installed, you can compile filelistbuilder.go yourself by going using [this repo](https://github.com/xackery/filelistbuilder).
 * Download the filelistbuilder binary version that fits your server operating system here: https://github.com/xackery/filelistbuilder/releases
+=======
+
+#### Filelistbuilder setup - Building the patch data.
+* *Optional:* If you have golang installed, you can compile filelistbuilder.go yourself by going into your EQEmu Patcher\flielistbuilder\ directory and compiling filelistbuilder.go. 
+* Download the filelistbuilder binary version that fits your server operating system here: https://github.com/xackery/eqemupatcher/releases
+>>>>>>> upstream/master
 * *Note:* It is important that your server generates the filelist.yml file, as an md5 can change when being hosted and cause challenges.
 * Copy the filelistbuilder binary from releases to your server into a fresh directory, for now on we'll call it filelistbuilder\. Note that this should be set in a PATH directory so it can be referred to from anywhere. Or if you're lazy, copy it in the SAME directory you have any filelistbuilder.yml files.
 * Make a subdirectory representing clients you plan to support, e.g. filelistbuilder\rof\ and filelistbuilder\und\

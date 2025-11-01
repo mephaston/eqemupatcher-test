@@ -17,6 +17,7 @@ namespace EQEmu_Patcher
     public partial class MainForm : Form
     {
 
+<<<<<<< HEAD
         public static string serverName; // server title name
         public static string filelistUrl; //filelist url
         public static string patcherUrl; //patcher url e.g. eqemupatcher-hash.txt
@@ -32,6 +33,16 @@ namespace EQEmu_Patcher
         bool isAutoPlay = false;
         CancellationTokenSource cts;
         System.Diagnostics.Process process;
+=======
+        /****
+         *  EDIT THESE VARIABLES FOR EACH SERVER
+         * 
+         ****/
+        public static string serverName = "Rebuild EQ";
+        public static string filelistUrl = "https://patch.clumsysworld.com/";
+        public static bool defaultAutoPlay = false; //When a user runs this first time, what should Autoplay be set to?
+        public static bool defaultAutoPatch = false; //When a user runs this first time, what should Autopatch be set to?
+>>>>>>> upstream/master
 
         //Note that for supported versions, the 3 letter suffix is needed on the filelist_###.yml file.
         public static List<VersionTypes> supportedClients = new List<VersionTypes> { //Supported clients for patcher
@@ -449,9 +460,30 @@ namespace EQEmu_Patcher
             return await UtilityLibrary.DownloadFile(cts, url, path);
         }
 
+<<<<<<< HEAD
         public static async Task<byte[]> Download(CancellationTokenSource cts, string url)
         {
             return await UtilityLibrary.Download(cts, url);
+=======
+            //Console.WriteLine(Application.StartupPath + "\\" + path);
+            LogEvent(path + "...");
+            string reason = UtilityLibrary.DownloadFile(url, path);
+            if (reason != "")
+            {
+                if (reason == "404")
+                {
+                    LogEvent("Failed to download " + url + ", 404 error (website may be down?)");
+                    //MessageBox.Show("Patch server could not be found. (404)");
+                }
+                else
+                {
+                    LogEvent("Failed to download " + url + " for untracked reason: " + reason);
+                    //MessageBox.Show("Patch server failed: (" + reason + ")");
+                }
+                return reason;
+            }
+            return "";
+>>>>>>> upstream/master
         }
 
         private void StartPatch()
